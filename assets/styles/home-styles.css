@@ -3,7 +3,7 @@ html, body{
 }
 
 .masthead{
-    background-image:linear-gradient(to right, black, rgba(0, 0, 0, 0.4)),url('../img/temp4.jpg');
+    background-image:radial-gradient(circle farthest-side at 70% 50%, transparent, #000 80%),url('../img/temp4.jpg');
     /* background-size: 150%;
     background-position: 60% 50%;
     height: 100%;
@@ -27,8 +27,6 @@ h1, li, a{
     transition-duration: 0.5s;
     margin: 0px;
 }
-
-
 
 .nav-item:hover{
     border-bottom: 2px solid white;
@@ -57,11 +55,6 @@ h1, li, a{
     border-radius: 50%;
 }
 
-.intro-text{
-    margin: 0 0 30px;
-    float: left;
-}
-
 .more-about-link{
     color: white;
     margin-bottom: 50px;
@@ -86,6 +79,13 @@ h1, li, a{
     #contact-us-li{
         border: 0px;
         margin-left: 0;
+    }
+
+    #contact-us-li:hover{
+        margin: 0;
+        /* border: unset; */
+        background-color: unset;
+        color: unset;
     }
 }
 
