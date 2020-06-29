@@ -1,80 +1,98 @@
-
-#mainNav{
-    padding-top: 20px;
+.team-boxed p {
+    color: #7d8285;
+}
+  
+.team-boxed h2 {
+font-weight: bold;
+margin-bottom: 40px;
+padding-top: 40px;
+color: inherit;
 }
 
-.nav-item{
-    border-bottom: 0px;
-    transition-duration: 0.5s;
-    margin: 0px;
+.team-boxed .intro {
+font-size: 16px;
+max-width: 500px;
+margin: 0 auto;
 }
 
-
-
-.nav-item:hover{
-    border-bottom: 2px solid white;
-    border-radius: 2px;
-    transition-duration: 0.5s;
+.team-boxed .intro p {
+margin-bottom: 0;
 }
 
-#contact-us-li{
-    padding: 8px 25px;
-    border: 1px solid white;
-    border-radius: 50px;
-    margin-left: 50px;
-    transition-duration: 0.4s;
+.team-boxed .people {
+padding: 50px 0;
 }
 
-#contact-us-li:hover{
-    border: #121212;
-    background-color: #121212;
-    color: white;
-    transition-duration: 0.4s;
-    margin-left: 100px;
+.team-boxed .item {
+text-align: center;
 }
 
-.menu-btn{
-    background-color: white;
-    border-radius: 50%;
+.masthead{
+background-image:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../img/temp5.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position: right;
 }
 
-
-@media screen and (max-width: 991px) and (min-width: 768px){
-    .home-title-div{
-        margin-top: 200px;
-    }
-
-    #contact-us-li{
-        border: 0px;
-        margin-left: 0;
-    }
+.team-boxed .item .box {
+text-align: center;
+padding: 30px;
+background-color: #1c1c1c;
+margin-bottom: 30px;
+/*background-image: initial;*/
 }
 
-@media screen and (max-width: 768px){
-    .home-title-div{
-        margin-top: 30px;
-    }
+.team-boxed .item .name {
+font-weight: bold;
+margin-top: 28px;
+margin-bottom: 8px;
+color: white;
+}
 
-    #contact-us-li{
-        border: 0px;
-        margin-left: 0;
-        padding: .5rem 1rem;
-        padding-left: 0;
-    }
+.team-boxed .item .title {
+text-transform: uppercase;
+font-weight: bold;
+color: #d0d0d0;
+letter-spacing: 2px;
+font-size: 13px;
+}
 
-    #contact-us-li:hover{
-        margin: 0;
-        border: unset;
-        background-color: unset;
-        color: unset;
-    }
+.team-boxed .item .description {
+font-size: 15px;
+margin-top: 15px;
+margin-bottom: 20px;
+color: white;
+}
 
-    #mainNav{
-        padding: 20px;
-    }
+.team-boxed .item img {
+max-width: 160px;
+}
 
-    .masthead{
-        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../img/temp4.jpg');
-        background-position: center;
-    }
+.team-boxed .social {
+font-size: 18px;
+color: #a2a8ae;
+}
+
+.team-boxed .social a {
+color: inherit;
+margin: 0 10px;
+display: inline-block;
+opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+opacity: 1;
+}
+
+@media (max-width:768px) {
+.team-boxed h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+}
+
+.masthead{
+    padding: 0px;
+}
+
 }
