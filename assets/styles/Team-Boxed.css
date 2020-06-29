@@ -1,9 +1,9 @@
 .team-boxed {
   /*color: #313437;*/
   /*background-color: #eef4f7;*/
-  background-image: url(../../assets/img/about.jpeg);
+  /*background-image: url(../../assets/img/about.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .team-boxed p {
@@ -92,4 +92,3 @@
 .team-boxed .social a:hover {
   opacity: 1;
 }
-
