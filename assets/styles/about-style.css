@@ -29,7 +29,7 @@ text-align: center;
 }
 
 .masthead{
-background-image:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../img/temp5.jpg');
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/bg_about.jpg');
 background-repeat:no-repeat;
 background-size:cover;
 background-position: right;
