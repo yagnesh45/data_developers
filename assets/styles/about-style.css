@@ -28,11 +28,12 @@ padding: 50px 0;
 text-align: center;
 }
 
+
 .masthead{
-background-image:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/bg_about.jpg');
+background-image:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/t1.jpeg');
 background-repeat:no-repeat;
 background-size:cover;
-background-position: right;
+/*background-position: right;*/
 }
 
 .team-boxed .item .box {
@@ -97,3 +98,11 @@ opacity: 1;
     padding: 0px;
 }
 }
+
+@media (min-width:991px) {
+    .offset-xl-1 {
+      margin-left: 8.333333%;
+    }
+  }
+  
+  

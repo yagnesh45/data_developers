@@ -2,12 +2,13 @@ html, body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .masthead{
     background-image:linear-gradient(to right, black, rgba(0, 0, 0, 0.4)),url('../img/temp4.jpg');
     /* background-size: 150%;
     background-position: 60% 50%;
     height: 100%;
-    background-position: center; */
+    background-position: center;*/
 }
 
 h1, li, a{
