@@ -1,0 +1,112 @@
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1, li, a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-title-div{
+    margin-top: 150px;
+}
+
+#mainNav{
+    padding-top: 20px;
+}
+
+.nav-item{
+    border-bottom: 0px;
+    transition-duration: 0.5s;
+    margin: 0px;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    transition-duration: 0.5s;
+}
+
+#contact-us-li{
+    padding: 8px 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 50px;
+    transition-duration: 0.4s;
+}
+
+#contact-us-li:hover{
+    border: #121212;
+    background-color: #121212;
+    color: white;
+    transition-duration: 0.4s;
+    margin-left: 100px;
+}
+
+.menu-btn{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.more-about-link{
+    color: white;
+    margin-bottom: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 0px;
+    transition-duration: 0.5s;
+}
+
+.more-about-link:hover{
+    background-color: white;
+    color: #121212;
+    border: 1px solid white;
+    transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .home-title-div{
+        margin-top: 200px;
+    }
+
+    #contact-us-li{
+        border: 0px;
+        margin-left: 0;
+    }
+
+    #contact-us-li:hover{
+        margin: 0;
+        /* border: unset; */
+        background-color: unset;
+        color: unset;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .home-title-div{
+        margin-top: 30px;
+    }
+    
+    #contact-us-li{
+        border: 0px;
+        margin-left: 0;
+        padding: .5rem 1rem;
+        padding-left: 0;
+    }
+
+    #contact-us-li:hover{
+        margin: 0;
+        border: unset;
+        background-color: unset;
+        color: unset;
+    }
+
+    #mainNav{
+        padding: 20px;
+    }
+
+    .masthead{
+        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../img/temp4.jpg');
+        background-position: center;
+    }
+}
