@@ -1,3 +1,32 @@
+@keyframes slideInFromLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-5%);
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideInFromBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(-5%);
+    }
+    50%{
+        opacity: 0;
+        /* transform: translateY(5%); */
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
 html, body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -18,8 +47,13 @@ h1, li, a{
     margin-top: 150px;
 }
 
+.intro-body{
+    animation: slideInFromBottom 1s ease-in 0s 1;
+}
+
 #mainNav{
     padding-top: 20px;
+    animation: slideInFromLeft 1s ease-in 0s 1;
 }
 
 .nav-item{
@@ -113,7 +147,7 @@ h1, li, a{
     }
 
     .masthead{
-        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../img/temp4.jpg');
-        background-position: center;
+        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('../img/temp4.jpg');
+        background-position: right;
     }
 }
