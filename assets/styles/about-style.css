@@ -1,3 +1,7 @@
+.about-content-div{
+    margin-top: 120px;
+}
+
 .team-boxed p {
     color: #7d8285;
 }
@@ -88,6 +92,10 @@ opacity: 0.7;
 opacity: 1;
 }
 
+.people .box{
+    margin-bottom: 50px;
+}
+
 @media (max-width:768px) {
 .team-boxed h2 {
     margin-bottom: 25px;
@@ -97,5 +105,13 @@ opacity: 1;
 
 .masthead{
     padding: 0px;
+}
+
+.team-boxed{
+    padding-top: 30px;
+}
+
+.people .box{
+    margin: 20px;
 }
 }
