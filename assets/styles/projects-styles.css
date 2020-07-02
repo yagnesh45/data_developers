@@ -1,0 +1,43 @@
+.projects-div{
+    margin-top: 150px;
+}
+
+.project-sub-div{
+
+}
+
+.masthead{
+    background-image: unset;
+}
+
+.project-description-div{
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.project-img-div{
+    padding-bottom: 20px;
+}
+
+.read-more-btn{
+    padding: 10px 30px;
+    font-size: 120%;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.tech-p{
+    border: 1px grey solid;
+    padding: 5px 7px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 5px 5px 5px 0;
+    background-color: grey;
+}
+
+@media screen and (max-width:768px){
+    .projects-div{
+        margin-top: 50px;
+    }
+}
