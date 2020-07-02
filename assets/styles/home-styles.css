@@ -39,6 +39,7 @@ html, body{
     background-position: center; */
 }
 
+
 h1, li, a{
     font-family: 'Montserrat', sans-serif;
 }
@@ -48,6 +49,7 @@ h1, li, a{
 }
 
 .intro-body{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7),rgba(0,0,0,0.7));
     animation: slideInFromBottom 1s ease-in 0s 1;
 }
 
@@ -99,9 +101,19 @@ h1, li, a{
 }
 
 .more-about-link:hover{
-    background-color: white;
-    color: #121212;
-    border: 1px solid white;
+    /* background-color: white; */
+    color: white;
+    /* border: 1px solid white; */
+    /* transition-duration: 0.3s; */
+}
+
+i{
+    padding-left: 0px;
+    transition-duration: 0.3s;
+}
+
+i:hover{
+    padding: 0 10px;
     transition-duration: 0.3s;
 }
 
