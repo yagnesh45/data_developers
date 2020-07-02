@@ -107,13 +107,13 @@ h1, li, a{
     /* transition-duration: 0.3s; */
 }
 
-i{
+a i{
     padding-left: 0px;
     transition-duration: 0.3s;
 }
 
-i:hover{
-    padding: 0 10px;
+a i:hover{
+    padding: 0 0 0 10px;
     transition-duration: 0.3s;
 }
 
