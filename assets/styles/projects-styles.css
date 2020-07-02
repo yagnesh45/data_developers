@@ -1,13 +1,27 @@
+@keyframes slideInFromBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(5%);
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
 .projects-div{
     margin-top: 150px;
 }
 
-.project-sub-div{
-
-}
-
 .masthead{
     background-image: unset;
+}
+
+.is-visible{
+    animation: slideInFromBottom 1s ease-in 0s 1;
 }
 
 .project-description-div{
@@ -22,7 +36,7 @@
 
 .read-more-btn{
     padding: 10px 30px;
-    font-size: 120%;
+    /* font-size: 120%; */
     border-radius: 25px;
     margin-bottom: 50px;
 }
