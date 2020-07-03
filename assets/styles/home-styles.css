@@ -162,4 +162,8 @@ a i:hover{
         background-image:linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('../img/temp4.jpg');
         background-position: right;
     }
+
+    .display-3{
+        font-size: 235%;
+    }
 }
