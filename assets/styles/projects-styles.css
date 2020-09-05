@@ -17,7 +17,7 @@
 }
 
 .masthead{
-    background-image:linear-gradient(to right, rgba(0, 0, 25, 0.8), rgba(0, 0, 0, 0.8)),url('../img/bg_projects.jpeg');
+    background-image:linear-gradient(to right, rgba(0, 0, 25, 0.8), rgba(0, 0, 0, 0.8)),url('../img/bg_projects2.jpg');
 }
 
 .is-visible{
@@ -50,15 +50,19 @@
     margin: 5px 5px 10px 5px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
     .projects-div{
-        margin-top: 50px;
+        margin-top: 200px;
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
+    .projects-div{
+        margin-top: 0px;
+    }
+
     .masthead{
-        background-image:linear-gradient(to right, rgba(0, 0, 25, 0.8), rgba(0, 0, 0, 0.8)),url('../img/bg_projects.jpeg');
+        background-image:linear-gradient(to right, rgba(0, 0, 25, 0.8), rgba(0, 0, 0, 0.8)),url('../img/bg_project2.jpg');
         background-size: 150%;
         background-repeat: repeat-y;
     }

@@ -32,11 +32,7 @@ html, body{
 }
 
 .masthead{
-    background-image:radial-gradient(circle farthest-side at 70% 50%, transparent, #000 80%),url('../img/temp4.jpg');
-    /* background-size: 150%;
-    background-position: 60% 50%;
-    height: 100%;
-    background-position: center; */
+    background-image:radial-gradient(circle farthest-side at 70% 50%, transparent, #000 80%),url('../img/bg_home.jpg');
 }
 
 
@@ -54,7 +50,7 @@ h1, li, a{
 }
 
 #mainNav{
-    padding-top: 20px;
+    padding-top: 15px;
     animation: slideInFromLeft 1s ease-in 0s 1;
 }
 
@@ -75,14 +71,13 @@ h1, li, a{
     border: 1px solid white;
     border-radius: 50px;
     margin-left: 50px;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 
 #contact-us-li:hover{
-    border: #121212;
-    background-color: #121212;
-    color: white;
-    transition-duration: 0.4s;
+    border: grey;
+    background-color: grey;
+    transition-duration: 0.5s;
     margin-left: 100px;
 }
 
@@ -97,24 +92,22 @@ h1, li, a{
     border: 1px solid white;
     border-radius: 50px;
     margin-left: 0px;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 
 .more-about-link:hover{
-    /* background-color: white; */
-    color: white;
-    /* border: 1px solid white; */
-    /* transition-duration: 0.3s; */
-}
-
-a i{
-    padding-left: 0px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
     transition-duration: 0.3s;
 }
 
-a i:hover{
-    padding: 0 0 0 10px;
-    transition-duration: 0.3s;
+.more-about-link i{
+    transition-duration: 0.1s;
+}
+
+.more-about-link i:hover{
+    transition-duration: 0.1s;
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px){
@@ -155,11 +148,11 @@ a i:hover{
     }
 
     #mainNav{
-        padding: 20px;
+        padding: 0 15px;
     }
 
     .masthead{
-        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('../img/temp4.jpg');
+        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('../img/bg_home.jpg');
         background-position: right;
     }
 
