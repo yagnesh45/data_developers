@@ -31,12 +31,13 @@ padding: 50px 0;
 text-align: center;
 margin: 0 auto;
 background-color: #1c1c1c;
+border-radius: 5px;
 box-shadow: 0 -2px 50px rgba(0, 0, 0, 1);
 padding: 30px;
 }
 
 .masthead{
-background-image:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/bg_about.jpg');
+background-image:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../img/bg_about3.jpg');
 background-repeat:no-repeat;
 background-size:cover;
 background-position: right;
@@ -76,15 +77,22 @@ color: white;
 max-width: 160px;
 }
 
+.social-div{
+    width: 100%;
+    text-align: center;
+}
+
 .team-boxed .social {
-font-size: 18px;
-color: #a2a8ae;
+font-size: 25px;
+color: black;
+background-color: white;
+border-radius: 25px;
 }
 
 .team-boxed .social a {
 color: inherit;
-margin: 0 10px;
 display: inline-block;
+margin: 0 10px;
 opacity: 0.7;
 }
 
@@ -96,7 +104,7 @@ opacity: 1;
     margin-bottom: 50px;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
 .team-boxed h2 {
     margin-bottom: 25px;
     padding-top: 25px;
