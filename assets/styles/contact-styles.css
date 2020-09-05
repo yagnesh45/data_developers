@@ -47,6 +47,7 @@
     border: 0;
     padding: 15px 36px;
     border-radius: 2rem;
+    font-size: small;
     background-color: #2f2f2f;
     color: white;
 }
@@ -55,13 +56,15 @@
     background-color: #4f4f4f;
 }
 
-.contact-form-submit-btn:hover i{
-    padding-left: 20px;
+.contact-form-submit-btn:hover svg{
+    margin-left: 10px;
+    margin-right: 0px;
     transition-duration: 0.5s;
 }
 
-.contact-form-submit-btn i{
-    margin-left: 10px;
-    padding: 0;
+.contact-form-submit-btn svg{
+    margin-right: 10px;
+    margin-left:0;
+    padding-left: 5px;
     transition-duration: 0.5s;
 }
