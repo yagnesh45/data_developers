@@ -54,8 +54,8 @@ a {
 .intro-body {
   background-image: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
   );
   animation: slideInFromBottom 1s ease-in 0s 1;
 }
@@ -86,8 +86,8 @@ a {
 }
 
 #contact-us-li:hover {
-  border: grey;
-  background-color: grey;
+  border: #2f2f2f;
+  background-color: #2f2f2f;
   transition-duration: 0.5s;
   margin-left: 100px;
 }

@@ -1,0 +1,67 @@
+@keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(5%);
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+.masthead {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 25, 0.9),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("../img/bg_home_temp.jpg");
+  }
+
+.contact-div{
+    animation: slideInFromBottom 1.5s 0s 1;
+}
+
+.contact-form-div{
+      padding: 30px;
+      border-radius: 0.5rem;
+  }
+
+.contact-form-input{
+    padding: 25px 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid grey;
+    color: white;
+}
+
+.input-textarea{
+    resize: none;
+}
+
+.contact-form-submit-btn{
+    border: 0;
+    padding: 15px 36px;
+    border-radius: 2rem;
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.contact-form-submit-btn:hover{
+    background-color: #4f4f4f;
+}
+
+.contact-form-submit-btn:hover i{
+    padding-left: 20px;
+    transition-duration: 0.5s;
+}
+
+.contact-form-submit-btn i{
+    margin-left: 10px;
+    padding: 0;
+    transition-duration: 0.5s;
+}
