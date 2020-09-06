@@ -44,16 +44,22 @@
 }
 
 .contact-form-submit-btn{
-    border: 0;
     padding: 15px 36px;
     border-radius: 2rem;
     font-size: small;
     background-color: #2f2f2f;
     color: white;
+    outline: none;
+    border: none;
 }
 
 .contact-form-submit-btn:hover{
     background-color: #4f4f4f;
+}
+
+.contact-form-submit-btn:focus, .contact-form-submit-btn:active{
+  border: none;
+  outline: 0;
 }
 
 .contact-form-submit-btn:hover svg{
