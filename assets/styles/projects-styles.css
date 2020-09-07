@@ -44,6 +44,11 @@
   }
 }
 
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .projects-div {
   margin-top: 150px;
 }
