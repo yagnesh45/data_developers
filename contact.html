@@ -94,10 +94,22 @@
                           G<span class="text-lowercase">et in touch.</span>
                         </h1>
                       </div>
-                        <form action="" class="contact-form" method="POST">
+
+                      <!-- 
+                        Link of google script for action attribute: https://script.google.com/macros/s/AKfycbzZoaDMcsDZ83ouTelovmaGt4LLsmqNRKem3RsuTg/exec
+
+                        Notes: need to customize thank you message and style it a little bit
+                       -->
+
+                      <form action="https://script.google.com/macros/s/AKfycbzZoaDMcsDZ83ouTelovmaGt4LLsmqNRKem3RsuTg/exec"
+                            class="gform contact-form" method="POST" data-email="yagnesh.s.patil@gmail.com">
+                            <div style="display:none" class="thankyou_message">
+                              <h2>Thanks for contacting us! We will get back to you soon!
+                              </h2>
+                             </div>
                             <div class="row">
                                 <div class="col-md-4 col-sm-12 form-input-div"><input type="text" class="contact-form-input" placeholder="Name" name="name" required="true"/></div>
-                                <div class="col-md-4 col-sm-12 form-input-div"><input type="number" class="contact-form-input" placeholder="Mobile No." name="mob-no" required="true"/></div>
+                                <div class="col-md-4 col-sm-12 form-input-div"><input type="number" class="contact-form-input" placeholder="Mobile No." name="mob-number" required="true"/></div>
                                 <div class="col-md-4 col-sm-12 form-input-div"><input type="email" class="contact-form-input" placeholder="Email" name="email" required="true"/></div>
                             </div>
                             <textarea rows="3" placeholder="Your Message" class="col-lg-12 contact-form-input input-textarea" name="message" required="true"></textarea> 
@@ -119,6 +131,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script data-cfasync="false" type="text/javascript" src="assets/js/form-submission-handler.js"></script>
         <script src="assets/js/smooth-scroll.js"></script>
       </body>
 </body>
