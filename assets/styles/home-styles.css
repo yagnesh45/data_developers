@@ -61,7 +61,8 @@ a {
 }
 
 #mainNav {
-  padding-top: 15px;
+  padding: 20px;
+  padding-top: 50px;
   animation: slideInFromLeft 1s ease-in 0s 1;
 }
 
@@ -130,6 +131,10 @@ a {
     border: 0px;
     margin-left: 0;
   }
+  
+  #mainNav{
+    padding: 20px;
+  }
 
   #contact-us-li:hover {
     margin: 0;
@@ -144,6 +149,9 @@ a {
     margin-top: 30px;
   }
 
+  #mainNav{
+    padding: 20px;
+  }
   #contact-us-li {
     border: 0px;
     margin-left: 0;
@@ -156,10 +164,6 @@ a {
     border: unset;
     background-color: unset;
     color: unset;
-  }
-
-  #mainNav {
-    padding: 0 15px;
   }
 
   .masthead {
